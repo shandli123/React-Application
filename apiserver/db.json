@@ -1,0 +1,27 @@
+{
+  "streams": [
+    {
+      "Title": "random stream",
+      "Description": "ffahgfg",
+      "id": 1
+    },
+    {
+      "Title": "1st stream",
+      "Description": "dfds",
+      "id": 2
+    },
+    
+    {
+      "Title": "bhbhgvgvg",
+      "Description": "i am showing",
+      "userId": "109839867088012124987",
+      "id": 6
+    },
+    {
+      "Title": "apna stream bana lo",
+      "Description": "iska kya hi description do",
+      "userId": "109839867088012124987",
+      "id": 7
+    }
+  ]
+}
