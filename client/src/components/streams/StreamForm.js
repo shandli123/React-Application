@@ -42,14 +42,25 @@ class StreamForm extends React.Component {
         //  console.log(this.props)
 
         return (
-
-
-            <form onSubmit={this.props.handleSubmit(this.onSubmit)} className="ui form error">
-                
-                <Field name="Title" component={this.renderInput} label="Enter title" />
-                <Field name="Description" component={this.renderInput} label="Enter description" />
-                <button className="ui button blue primary">submit</button>
+            <form onSubmit={this.props.handleSubmit(this.onSubmit)} className="ui form error field" style={{ height: "400px" }}>
+                <div className="ui inverted segment" style={{ height: "400px" }}>
+                    <div class="ui inverted form" >
+                        <div class="two fields">
+                            <Field name="Title" component={this.renderInput} label="Enter name" />
+                            <Field name="Description" component={this.renderInput} label="Enter Description" />
+                        </div>
+                        <button style={{ position: "relative", marginBottom: "10px" }} class="ui submit button">Submit</button>
+                    </div>
+                </div>
             </form>
+
+            // <form onSubmit={this.props.handleSubmit(this.onSubmit)} className="ui form error">
+
+                
+            //     <Field name="Title" component={this.renderInput} label="Enter title" />
+            //     <Field name="Description" component={this.renderInput} label="Enter description" />
+            //     <button className="ui button blue primary">submit</button>
+            // </form>
         )
     }
 }

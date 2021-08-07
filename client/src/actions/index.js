@@ -71,11 +71,11 @@ export const deleteStream=(id)=>{
    await streams.delete(`/streams/${id}`);
    
      dispatch({
-         type:FETCH_STREAM,
+         type:DELETE_STREAM,
          payload:id
      })
         history.push('/');
-       document.location.reload();
+      
     };
 
 }
